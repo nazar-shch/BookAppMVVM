@@ -1,0 +1,32 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textViewBookTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Book Title" />
+
+        <ImageButton
+            android:id="@+id/buttonEditBook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:contentDescription="Edit Book"
+            android:src="@drawable/ic_edit" />
+
+        <ImageButton
+            android:id="@+id/buttonDeleteBook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:contentDescription="Edit Book"
+            android:src="@drawable/ic_delete" />
+    </LinearLayout>
+</layout>
